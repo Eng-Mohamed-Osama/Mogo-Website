@@ -1,4 +1,18 @@
+$browser-context: 16;
+
+@media #{$media-sm} {
+$browser-context: 22;
+    
+}
+@media #{$media-md} {
+    $browser-context: 18;
+
+}
+
+@media #{$media-lg} {
+    $browser-context: 16;
+}
 @function convertFont($value){
-    $res : $value/24;
+    $res : $value/$browser-context;
     @return #{$res}rem;
 }
