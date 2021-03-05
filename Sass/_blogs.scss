@@ -1,0 +1,52 @@
+.blogs{
+    @extend %section__spacing;
+    .blogs__date{
+        background-color: $iconColor;
+        background-color: #95e1d3;
+    top: 8.5em;
+    left: .5em;
+    height: 4rem;
+    width: 3.5rem;
+    color: #ffffff;
+    span:first-of-type{
+        font-size: 30px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    }
+    span:last-of-type{
+        font-size: 15px;
+        line-height: 8px;
+        font-weight: 300;
+        font-style: italic;
+        font-family: "Roboto";
+    }
+    }
+    i{
+        font-size: 1rem;
+    }
+
+    .card{
+        border-radius: 0;
+        img{
+        border-radius: 0;
+        height: 13rem;
+    object-fit: cover;
+            
+        }
+    }
+    .card-body{
+        span{
+
+            font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+        }
+        h6{
+            border-bottom: 1px solid #eee;
+        }
+    }
+}

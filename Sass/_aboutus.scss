@@ -1,0 +1,16 @@
+.aboutus{
+    @extend %section__spacing;
+    img{
+        height: convertFont(197) !important;
+        object-fit: cover;
+    }
+    .hover-layer {
+        i{
+            color: #fff;
+            background: transparent;
+        }
+        h5{
+            color: #fff;
+        }
+    }
+}

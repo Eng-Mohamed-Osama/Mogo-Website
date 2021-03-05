@@ -1,0 +1,12 @@
+.card-body {
+  height: convertFont(135) !important;
+  font-size: convertFont(15) !important;
+  line-height: convertFont(24) !important;
+  color: #999999 !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  font-family: "Roboto" !important;
+  text-align: left !important;
+  word-break: break-word !important;
+  overflow-y: scroll !important;
+}

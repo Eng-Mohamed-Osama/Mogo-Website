@@ -1,0 +1,30 @@
+.statics{
+    .row{
+        border-bottom: 1px solid #eee ;
+    }
+    // @media #{$media-tablet} {
+    //     .row{
+    //           border: 0 !important;
+    //       }
+    //   }
+    @media #{$media-lg} {
+        .row{
+            border-bottom: 0 !important;
+          }
+      }
+    @media #{$media-md} {
+        .row{
+              border-bottom: 0 !important;
+          }
+      }
+    @media #{$media-sm} {
+        .row{
+              border-bottom: 0 !important;
+          }
+      }
+    // @media #{$media-x-sm} {
+    //     .row{
+    //           border-bottom: 0 !important;
+    //       }
+    //   }
+}

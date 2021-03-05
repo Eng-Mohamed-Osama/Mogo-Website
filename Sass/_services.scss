@@ -1,0 +1,34 @@
+.services{
+    
+    @extend %section__spacing;
+    .card{
+        border-radius: 0;
+        border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    }
+    .card-body{ 
+        height: convertFont(200) !important;
+        font-size: convertFont(15)  !important;
+        line-height:convertFont(24)  !important;
+        color: #999999  !important;
+        font-weight: 300  !important;
+        font-style: italic  !important;
+        font-family: "Roboto"  !important;
+        text-align: left !important;
+        word-break: break-word !important;
+        overflow-y: scroll !important;
+        -ms-overflow-style: none;
+        &::-webkit-scrollbar {
+            display: none;
+          }
+          
+          
+          
+        
+    }
+    i{
+        font-size: 1.5rem;
+    }
+    i.down{
+        color: #999999 !important;
+    }
+}

@@ -1,0 +1,28 @@
+.ourwork{
+    @extend %section__spacing;
+   img{
+    height: 18rem;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+   }
+   .img-long{
+       height: 36rem;
+   }
+   .hover-layer {
+    box-shadow: none;
+    transform: translate(0, 0);
+    i{
+        color: #fff;
+        background: transparent;
+    }
+    h5{
+        color: #fff;
+    }
+    p{
+        font-size: .7rem;
+    line-height: 1.25rem;
+    color: #ffffff;
+    }
+}
+}

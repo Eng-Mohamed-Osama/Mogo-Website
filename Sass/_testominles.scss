@@ -1,0 +1,51 @@
+.testominles{
+    @extend %section__spacing;
+    background:url('../Assets/imgs/Layer\ 53.png');
+    background-size: cover;
+    .container{
+        position: relative;
+        z-index: 10;
+    }
+    h2{
+        padding-top: 4em;
+    }
+    .row{
+        padding-bottom: 6em;
+    }
+    .media{
+        img{
+            width: 5rem;
+            height: 5rem;
+            object-fit: cover;
+            // object-fit: none;
+        }
+    }
+    .media-body{
+        h6:first-of-type{
+            position: relative;
+            &::before{
+                    content: "";
+                    width: 3.75rem;
+                    height: 0.15rem;
+                    position: absolute;
+                    background: #f38181;
+                    bottom: -60%;
+                    left: 0%;
+                }
+            
+        }
+        h6:last-of-type{
+            margin: 0;
+            margin-top: 1.5em;
+            font-size: convertFont(15);
+            line-height: 1.5em;
+            color: #999999;
+            font-weight: 400;
+            font-family: "Roboto";
+        }
+    }
+   
+}
+.ourwork-media{
+    background-color: #fff;
+}
