@@ -1,0 +1,95 @@
+footer{
+    background-color: #f8f8f8;
+    padding: {
+        bottom: 4.5rem;
+        top:4.5rem;
+    };
+    h6{
+        margin-bottom: 0 !important;
+        font: {
+            weight: 600;
+            size: .8rem;
+        }
+        color: #000;
+    }
+    span{
+        font: {
+            size: 10px;
+            weight: 300;
+            style: italic;
+            family: "Roboto";
+        };
+   
+        color: #999999;
+     }
+     img{
+         object-fit: cover;
+     }
+     p{
+         font-size: .8rem;
+         font-style: normal;
+         line-height: 1.5rem;
+     }
+
+     .btn{
+        background-color: #95e1d3;
+        border-radius: 0 !important;
+        font-size: .8rem;
+        font-weight: 600;
+     }
+     .nav-brand{
+        
+            color: #ccc !important;
+            font : {
+                size: 2rem !important;
+                weight: 700 !important;
+                family: "Montserrat";
+            }
+            
+     }
+     ul{
+         list-style: none;
+         display: inline-block;
+         margin-left: .5rem;
+         padding-left: 0 !important;
+         li{
+             display:  inline-block;
+         }
+         i{
+             font-size: 1rem;
+             cursor: pointer;
+             transition: all .2s ease;
+
+             &:hover{
+                 color: $NavBarBg;
+                 transition: all .2s ease;
+             }
+         }
+     }
+     .followers{
+         font: {
+            size: 14px;
+            weight: 600;
+            family: 'Montserrat', sans-serif;
+         }
+         color: #000;
+       
+     }
+
+     form {
+         input{
+             font-size: .8rem;
+             
+         }
+         button{
+            cursor: pointer;
+            transition: all .2s ease;
+
+            &:hover{
+                background-color: $NavBarBg;
+                color: $iconColor;
+                transition: all .2s ease;
+            }
+         }
+     }
+}

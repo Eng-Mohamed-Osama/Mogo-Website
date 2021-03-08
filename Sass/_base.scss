@@ -8,12 +8,9 @@ body{
     box-sizing: border-box;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Montserrat', sans-serif;
-   
-
-   
-
+    scroll-behavior: smooth;
     .autoplay .media{
-        transform: scale(.85);
+        transform: scale(.95);
     }
     .slick-prev:before, .slick-next:before{
         color: $iconColor;
@@ -52,7 +49,7 @@ body{
         
     }
     .scrolling{
-        background-color: $iconColor;
+        background-color: $NavBarBg;
         transition: all .2s ease-in-out;
     }
     a.nav-link ,a.dropdown-item{
@@ -95,15 +92,18 @@ body{
 
     a.navbar-brand {
         color: $whiteColor !important;
-        font-size: 1.875rem !important;
-        font-weight: 700 !important;
-        font-family: "Montserrat";
+        font : {
+            size: 1.875rem !important;
+            weight: 900 !important;
+            family: "Montserrat";
+        }
+        
     }
     .scrolltop{
-        background: #eee;
+        background: $NavBarBg;
         padding: .5em 1em;
         bottom: 5%;
-        right: 5%;
+        right: 2%;
         z-index: 1000;
         display: none;
         i{
@@ -112,75 +112,77 @@ body{
     }
 
     h2{
-    font-size: convertFont(24);
-    color: #333333;
-    font-weight: 400;
-    font-family: "Kaushan Script";
-    margin-bottom: 1rem;
+        font-size: convertFont(20);
+        color: #333333;
+        font-weight: 400;
+        font-family: "Kaushan Script";
+        margin-bottom: 1rem;
     }
 
     h3{
-    font-size: convertFont(30);
-    position: relative;
-    color: #333333;
-    font-weight: 700;
-    font-family: "Montserrat";
-    margin-bottom: 6rem;
-    &::before{
-        content: "";
-        width: 3.75rem;
-        height: 0.15rem;
-        position: absolute;
-        background: $bgColor;
-        bottom: -95%;
-        left: 47%;
-        @media #{$media-sm} {
-            left: 44%;
-        }
-        @media #{$media-md} {
-            left: 44%;
-        }
-        
-        @media #{$media-lg} {
+        font-size: convertFont(25);
+        position: relative;
+        color: #333333;
+        font-weight: 700;
+        font-family: "Montserrat";
+        margin-bottom: 4rem;
+        &::before{
+            content: "";
+            width: 4rem;
+            height: 0.15rem;
+            position: absolute;
+            background: $bgColor;
+            bottom: -95%;
             left: 47%;
+    
+            @media #{$media-sm} {
+                left: 43%;
+            }
+            @media #{$media-md} {
+                left: 44%;
+            }
+            
+            @media #{$media-lg} {
+                left: 46%;
+            }
         }
-    }
     }
 
     h4{
-    font-size: convertFont(30);
-    color: #333333;
-    font-weight: 700;
-    font-family: "Montserrat";
+        font-size: convertFont(30);
+        color: #333333;
+        font-weight: 700;
+        font-family: "Montserrat";
     }
 
     p{
 
-    font-size:convertFont(24);
-    line-height: convertFont(36);
-    color: #999999;
-    font-weight: 300;
-    font-style: italic;
-    font-family: "Roboto";
+        font-size:convertFont(16);
+        line-height: convertFont(36);
+        color: #999999;
+        font-weight: 300;
+        font-style: italic;
+        font-family: 'Roboto',sans-serif;
     }
 
 
     h5{
-    font-size: 14px;
-    font-size: convertFont(14);
-    color: #333333;
-    font-weight: 400;
-    font-family: "Montserrat";
+        font-size: 14px;
+        font-size: convertFont(14);
+        color: #333333;
+        font-weight: 400;
+        font-family: "Montserrat";
     }
+
     h6{
 
-    font-size:  convertFont(15);
-    line-height: convertFont(20);
-    color: #999999;
-    font-weight: 400;
-    font-family: "Roboto";
-    margin: auto;
-    margin-bottom: 6rem !important;
+        font-size:  convertFont(13);
+        line-height: convertFont(20);
+        color: #999999;
+        font-weight: 400;
+        font-family: 'Roboto',sans-serif;
+        margin: auto;
+        margin-bottom: 4rem !important;
     }
 
     .overlayer{
@@ -190,8 +192,7 @@ body{
     }
 
     .hover-layer{
-        background: $hoverLayerBg;
-                
+        background: $hoverLayerBg;   
                 top: 0;
                 z-index: 10;
                 cursor: pointer;
@@ -200,17 +201,16 @@ body{
             
         i{
             display: inline-block;
-        padding: .8rem;
-        background: #fce38a;
-        font-size: 1.7rem;
-        color: #f08f8b;
-        
-        transition: all .2s ease-in-out;
-        &:hover{
-            color: #fff;
-            background: #f08f8b;
+            padding: .8rem;
+            background: #fce38a;
+            font-size: 1.7rem;
+            color: #f08f8b;
             transition: all .2s ease-in-out;
-        }
+            &:hover{
+                color: #fff;
+                background: #f08f8b;
+                transition: all .2s ease-in-out;
+            }
         }
     }
 

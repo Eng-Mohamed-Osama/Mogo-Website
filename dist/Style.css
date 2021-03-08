@@ -1,6 +1,6 @@
 .map, .blogs, .testominles, .ourwork, .clients, .team, .client-message, .desing-app, .services, .numbers, .aboutus, header {
-  margin-bottom: 6.25rem;
-  margin-top: 6.25rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 * {
@@ -14,9 +14,10 @@ body {
   box-sizing: border-box;
   font-family: "Kaushan Script", cursive;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 body .autoplay .media {
-  transform: scale(0.85);
+  transform: scale(0.95);
 }
 body .slick-prev:before, body .slick-next:before {
   color: #95e1d3;
@@ -51,7 +52,7 @@ body .bg {
   transition: all 0.2s ease-in-out;
 }
 body .scrolling {
-  background-color: #95e1d3;
+  background-color: rgba(241, 114, 114, 0.96);
   transition: all 0.2s ease-in-out;
 }
 body a.nav-link, body a.dropdown-item {
@@ -86,14 +87,14 @@ body .active a {
 body a.navbar-brand {
   color: #ffffff !important;
   font-size: 1.875rem !important;
-  font-weight: 700 !important;
+  font-weight: 900 !important;
   font-family: "Montserrat";
 }
 body .scrolltop {
-  background: #eee;
+  background: rgba(241, 114, 114, 0.96);
   padding: 0.5em 1em;
   bottom: 5%;
-  right: 5%;
+  right: 2%;
   z-index: 1000;
   display: none;
 }
@@ -101,23 +102,23 @@ body .scrolltop i {
   font-size: 1rem;
 }
 body h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #333333;
   font-weight: 400;
   font-family: "Kaushan Script";
   margin-bottom: 1rem;
 }
 body h3 {
-  font-size: 1.875rem;
+  font-size: 1.5625rem;
   position: relative;
   color: #333333;
   font-weight: 700;
   font-family: "Montserrat";
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 body h3::before {
   content: "";
-  width: 3.75rem;
+  width: 4rem;
   height: 0.15rem;
   position: absolute;
   background: #f38181;
@@ -126,7 +127,7 @@ body h3::before {
 }
 @media (max-width: 576px) and (min-width: 150px) {
   body h3::before {
-    left: 44%;
+    left: 43%;
   }
 }
 @media (max-width: 768px) and (min-width: 577px) {
@@ -136,7 +137,7 @@ body h3::before {
 }
 @media (max-width: 992px) and (min-width: 769px) {
   body h3::before {
-    left: 47%;
+    left: 46%;
   }
 }
 body h4 {
@@ -146,12 +147,12 @@ body h4 {
   font-family: "Montserrat";
 }
 body p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 2.25rem;
   color: #999999;
   font-weight: 300;
   font-style: italic;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 body h5 {
   font-size: 14px;
@@ -161,13 +162,13 @@ body h5 {
   font-family: "Montserrat";
 }
 body h6 {
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
   line-height: 1.25rem;
   color: #999999;
   font-weight: 400;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   margin: auto;
-  margin-bottom: 6rem !important;
+  margin-bottom: 4rem !important;
 }
 body .overlayer {
   background-color: #ffffffe6;
@@ -215,19 +216,19 @@ header .btn {
   border: 3px solid #fff;
   font-size: 0.7rem;
   border-radius: 0;
-  padding: 0.6rem 1.2rem;
+  padding: 0.6rem 1.8rem;
 }
 header .container {
   z-index: 100;
 }
 header h2 {
-  font-size: 3.75rem;
-  color: #ffffff;
+  font-size: 3.4375rem;
   font-weight: 400;
   font-family: "Kaushan Script";
+  color: #ffffff;
 }
 header h1 {
-  font-size: 7.5rem;
+  font-size: 6.875rem;
   line-height: 8.75rem;
   position: relative;
   color: #ffffff;
@@ -236,7 +237,7 @@ header h1 {
 }
 header h1::before {
   content: "";
-  width: 3.85rem;
+  width: 4rem;
   height: 0.15rem;
   position: absolute;
   background: #fff;
@@ -245,12 +246,12 @@ header h1::before {
 }
 @media (max-width: 576px) and (min-width: 150px) {
   header h1::before {
-    left: 45%;
+    left: 46%;
   }
 }
 @media (max-width: 768px) and (min-width: 577px) {
   header h1::before {
-    left: 45%;
+    left: 46%;
   }
 }
 @media (max-width: 992px) and (min-width: 769px) {
@@ -279,6 +280,15 @@ header li.active span {
   width: 100%;
   transition: all 1.5s ease-in-out;
 }
+header li .header__indecators {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  display: block;
+  z-index: 100;
+  background-color: #f38181;
+}
 
 .aboutus img {
   height: 12.3125rem !important;
@@ -297,17 +307,18 @@ header li.active span {
 }
 .numbers h2 {
   font-size: 3.75rem;
-  color: #ffffff;
   font-weight: 700;
   font-family: "Montserrat";
+  color: #ffffff;
   text-align: center;
   margin-bottom: 0 !important;
 }
 .numbers h4 {
   font-size: 0.75rem;
-  color: #ffffff;
   font-weight: 400;
+  font-style: italic !important;
   font-family: "Montserrat";
+  color: #ffffff;
   text-align: center;
 }
 .numbers .pl-lg-5 {
@@ -344,12 +355,12 @@ header li.active span {
 }
 .services .card-body {
   height: 12.5rem !important;
-  font-size: 0.9375rem !important;
   line-height: 1.5rem !important;
-  color: #999999 !important;
+  font-size: 0.8125rem !important;
   font-weight: 300 !important;
   font-style: italic !important;
-  font-family: "Roboto" !important;
+  font-family: "Roboto", sans-serif !important;
+  color: #999999 !important;
   text-align: left !important;
   word-break: break-word !important;
   overflow-y: scroll !important;
@@ -370,7 +381,7 @@ header li.active span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 107vh;
+  height: 102vh;
 }
 @media (max-width: 576px) and (min-width: 150px) {
   .desing-app {
@@ -428,7 +439,6 @@ header li.active span {
 }
 .client-message h2 {
   font-size: 24px;
-  color: #333333;
   font-weight: 400;
   font-family: "Kaushan Script";
   position: relative;
@@ -452,6 +462,25 @@ header li.active span {
 .client-message img {
   width: 11rem;
   height: 11rem;
+  object-fit: cover;
+}
+@media (max-width: 576px) and (min-width: 150px) {
+  .client-message img {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+@media (max-width: 768px) and (min-width: 577px) {
+  .client-message img {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media (max-width: 992px) and (min-width: 769px) {
+  .client-message img {
+    width: 11rem;
+    height: 11rem;
+  }
 }
 
 .team .card {
@@ -476,8 +505,8 @@ header li.active span {
 
 .clients {
   background-color: #c6c6c6 !important;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .ourwork img {
@@ -525,6 +554,24 @@ header li.active span {
   height: 5rem;
   object-fit: cover;
 }
+@media (max-width: 576px) and (min-width: 150px) {
+  .testominles .media img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+@media (max-width: 768px) and (min-width: 577px) {
+  .testominles .media img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+@media (max-width: 992px) and (min-width: 769px) {
+  .testominles .media img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
 .testominles .media-body h6:first-of-type {
   position: relative;
 }
@@ -540,11 +587,11 @@ header li.active span {
 .testominles .media-body h6:last-of-type {
   margin: 0;
   margin-top: 1.5em;
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
   line-height: 1.5em;
   color: #999999;
   font-weight: 400;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 .ourwork-media {
@@ -568,10 +615,10 @@ header li.active span {
 }
 .blogs .blogs__date span:last-of-type {
   font-size: 15px;
-  line-height: 8px;
   font-weight: 300;
   font-style: italic;
   font-family: "Roboto";
+  line-height: 8px;
 }
 .blogs i {
   font-size: 1rem;
@@ -586,17 +633,18 @@ header li.active span {
 }
 .blogs .card-body span {
   font-size: 15px;
-  line-height: 24px;
-  color: #999999;
   font-weight: 300;
   font-style: italic;
   font-family: "Roboto";
+  line-height: 24px;
+  color: #999999;
 }
 .blogs .card-body h6 {
   border-bottom: 1px solid #eee;
 }
 
 .map {
+  margin-bottom: 0;
   background: url("../Assets/imgs/Layer59.png");
   background-size: cover;
 }
@@ -612,4 +660,79 @@ header li.active span {
 }
 .map .container {
   z-index: 2;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding-bottom: 4.5rem;
+  padding-top: 4.5rem;
+}
+footer h6 {
+  margin-bottom: 0 !important;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #000;
+}
+footer span {
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Roboto";
+  color: #999999;
+}
+footer img {
+  object-fit: cover;
+}
+footer p {
+  font-size: 0.8rem;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+footer .btn {
+  background-color: #95e1d3;
+  border-radius: 0 !important;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+footer .nav-brand {
+  color: #ccc !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  font-family: "Montserrat";
+}
+footer ul {
+  list-style: none;
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding-left: 0 !important;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul i {
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+footer ul i:hover {
+  color: rgba(241, 114, 114, 0.96);
+  transition: all 0.2s ease;
+}
+footer .followers {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+footer form input {
+  font-size: 0.8rem;
+}
+footer form button {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+footer form button:hover {
+  background-color: rgba(241, 114, 114, 0.96);
+  color: #95e1d3;
+  transition: all 0.2s ease;
 }

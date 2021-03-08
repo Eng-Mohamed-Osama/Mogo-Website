@@ -7,8 +7,8 @@ header{
     height: 100vh;
     .hover-layer{
         
-                box-shadow: none;
-                transform: translate(0, 0);
+        box-shadow: none;
+        transform: translate(0, 0);
     }
                
     .btn{
@@ -17,7 +17,7 @@ header{
         border: 3px solid #fff;
         font-size: .7rem;
         border-radius: 0;
-        padding: .6rem 1.2rem;
+        padding: .6rem 1.8rem;
         
     }
     .container{
@@ -25,32 +25,34 @@ header{
         z-index: 100;
     }
     h2{
-        font-size: convertFont(60);
+        font: {
+            size: convertFont(55);
+            weight: 400;
+            family: "Kaushan Script";
+        }
         color: $whiteColor;
-        font-weight: 400;
-        font-family: "Kaushan Script";
+        
     }
     h1{
-        font-size: convertFont(120);
+        font-size: convertFont(110);
         line-height: convertFont(140);
         position: relative;
-        // width: fit-content;
         color: $whiteColor;
         font-weight: 700;
         font-family: "Montserrat";
         &::before{
             content: "";
-            width: 3.85rem;
+            width: 4rem;
             height: 0.15rem;
             position: absolute;
             background: #fff;
             bottom: -10%;
             left: 47%;
             @media #{$media-sm} {
-                left: 45%;
+                left: 46%;
             }
             @media #{$media-md} {
-                left: 45%;
+                left: 46%;
             }
             
             @media #{$media-lg} {
@@ -59,45 +61,46 @@ header{
         }
 
     }
-    // .col-lg-2{
-
-    //     opacity: 1 !important;
-    // }
-    // .lel::before {
-    //     content: "01 INTRO";
-    //     position: absolute;
-    //     right: -8%;
-    //     font-size: .8rem;
-    //     font-weight: 700;
-    //     color: #fff;
-    //     padding-top: 8px;
+    
+    li{
+        span {
         
-    // }
-    li  span {
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 100%;
+            display: block;
+            z-index: 100;
+            background-color: $bgColor;
+            
+        }
+        &.active span.header__active {
         
-        position: absolute;
-        left: 0;
-        width: 0;
-        height: 100%;
-        display: block;
-        z-index: 100;
-        background-color: $bgColor;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            transition: all 1.5s ease-in-out;
+            
+        }
+        &.active span {
         
-    }
-    li.active span.header__active {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            transition: all 1.5s ease-in-out;
+            
+        }
+        .header__indecators {
         
-        position: absolute;
-        left: 0;
-        width: 100%;
-        transition: all 1.5s ease-in-out;
-        
-    }
-    li.active span {
-        
-        position: absolute;
-        left: 0;
-        width: 100%;
-        transition: all 1.5s ease-in-out;
-        
-    }
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 100%;
+            display: block;
+            z-index: 100;
+            background-color: $bgColor;
+            
+        }
+    }  
+    
 }

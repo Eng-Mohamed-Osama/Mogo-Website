@@ -3,23 +3,25 @@
     background-color: #95e1d3;
 
     h2{
-        font-size: convertFont(60);
+        font: {
+            size: convertFont(60);
+            weight: 700;
+            family: "Montserrat";
+        }
         color: #ffffff;
-        font-weight: 700;
-        font-family: "Montserrat";
         text-align: center;
         margin-bottom: 0 !important;
     }
     h4{
-        font-size: convertFont(12);
-color: #ffffff;
-font-weight: 400;
-font-family: "Montserrat";
-text-align: center;
+        font: {
+            size: convertFont(12);
+            weight: 400;
+            style: italic  !important;
+            family: "Montserrat";
+        }
+        color: #ffffff;
+        text-align: center;
     }
-    // .border{
-    //     border-right: 0 !important;
-    // }
     .pl-lg-5{
         padding-left: 4rem !important;
     }
