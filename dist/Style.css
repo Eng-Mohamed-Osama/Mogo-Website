@@ -152,6 +152,11 @@ body .owl-nav {
 .navbar .navbar-toggler {
   border: 2px solid #fff;
 }
+.navbar .navbar-toggler .navbar-toggler-icon {
+  height: auto;
+  width: auto;
+}
+
 .bg {
   background-color: transparent !important;
   transition: all 0.2s ease-in-out;
