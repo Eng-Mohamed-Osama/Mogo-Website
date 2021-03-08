@@ -21,6 +21,7 @@
     background-color: $NavBarBg;
     transition: all .2s ease-in-out;
 }
+
 a.nav-link ,a.dropdown-item{
     font: {
         weight: 400 !important;
@@ -66,5 +67,6 @@ a.navbar-brand {
         weight: 900 !important;
         family: "Montserrat";
     }
+    
     
 }
