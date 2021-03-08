@@ -16,7 +16,7 @@ $(document).ready(function () {
   };
 
   var switchNavbarBgOnscroll = function switchNavbarBgOnscroll() {
-    if ($(window).scrollTop() > 50) {
+    if ($(window).scrollTop() > 0) {
       $(".navbar").addClass("scrolling , shadow-lg");
       $(".navbar").removeClass("bg");
     } else {

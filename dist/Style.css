@@ -36,60 +36,6 @@ body h5,
 body h6 {
   margin: 0;
 }
-body .navbar i {
-  color: #ffffff !important;
-  font-size: 1rem !important;
-}
-body .navbar .navbar-toggler {
-  border: 2px solid #fff;
-}
-body .navbar .navbar-toggler .navbar-toggler-icon {
-  height: auto;
-  width: auto;
-}
-body .bg {
-  background-color: transparent !important;
-  transition: all 0.2s ease-in-out;
-}
-body .scrolling {
-  background-color: rgba(241, 114, 114, 0.96);
-  transition: all 0.2s ease-in-out;
-}
-body a.nav-link, body a.dropdown-item {
-  font-weight: 400 !important;
-  font-size: 0.875rem !important;
-  font-family: "Montserrat";
-  text-align: center;
-  color: #ffffff !important;
-}
-body i {
-  color: #95e1d3;
-  font-size: 2rem;
-}
-body a.nav-link:hover {
-  color: #fce38a !important;
-  border-bottom: 3px solid #fce38a;
-  transition: all 0.2s ease-in-out;
-}
-body .nav-item {
-  transition: all 0.2s ease-in-out;
-  width: fit-content;
-}
-body .navbar-brand:hover {
-  color: #fce38a !important;
-  transition: all 0.2s ease-in-out;
-}
-body .active a {
-  color: #fce38a !important;
-  border-bottom: 3px solid #fce38a;
-  transition: all 0.2s ease-in-out;
-}
-body a.navbar-brand {
-  color: #ffffff !important;
-  font-size: 1.875rem !important;
-  font-weight: 900 !important;
-  font-family: "Montserrat";
-}
 body .scrolltop {
   background: rgba(241, 114, 114, 0.96);
   padding: 0.5em 1em;
@@ -197,6 +143,65 @@ body .hover-layer i:hover {
 }
 body .owl-nav {
   display: none;
+}
+
+.navbar i {
+  color: #ffffff !important;
+  font-size: 1rem !important;
+}
+.navbar .navbar-toggler {
+  border: 2px solid #fff;
+}
+.bg {
+  background-color: transparent !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.scrolling {
+  background-color: rgba(241, 114, 114, 0.96);
+  transition: all 0.2s ease-in-out;
+}
+
+a.nav-link, a.dropdown-item {
+  font-weight: 400 !important;
+  font-size: 0.875rem !important;
+  font-family: "Montserrat";
+  text-align: center;
+  color: #ffffff !important;
+}
+
+i {
+  color: #95e1d3;
+  font-size: 2rem;
+}
+
+a.nav-link:hover {
+  color: #fce38a !important;
+  border-bottom: 3px solid #fce38a;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-item {
+  transition: all 0.2s ease-in-out;
+  width: fit-content;
+}
+
+.navbar-brand:hover {
+  color: #fce38a !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.active a {
+  color: #fce38a !important;
+  border-bottom: 3px solid #fce38a;
+  transition: all 0.2s ease-in-out;
+}
+
+a.navbar-brand {
+  color: #ffffff !important;
+  font-size: 1.875rem !important;
+  font-weight: 900 !important;
+  font-family: "Montserrat";
 }
 
 header {
