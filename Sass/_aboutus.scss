@@ -1,5 +1,6 @@
 .aboutus{
     @extend %section__spacing;
+    overflow:hidden;
     img{
         height: convertFont(197) !important;
         object-fit: cover;

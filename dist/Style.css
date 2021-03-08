@@ -300,6 +300,9 @@ header li .header__indecators {
   background-color: #f38181;
 }
 
+.aboutus {
+  overflow: hidden;
+}
 .aboutus img {
   height: 12.3125rem !important;
   object-fit: cover;
