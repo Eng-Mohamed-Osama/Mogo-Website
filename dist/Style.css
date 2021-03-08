@@ -664,7 +664,6 @@ header li .header__indecators {
 
 footer {
   background-color: #f8f8f8;
-  padding-bottom: 4.5rem;
   padding-top: 4.5rem;
 }
 footer h6 {
@@ -735,4 +734,13 @@ footer form button:hover {
   background-color: rgba(241, 114, 114, 0.96);
   color: #95e1d3;
   transition: all 0.2s ease;
+}
+footer .footer__copyrights {
+  font-size: 12px;
+}
+footer .footer__copyrights span {
+  font-weight: 700 !important;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(241, 114, 114, 0.96);
 }

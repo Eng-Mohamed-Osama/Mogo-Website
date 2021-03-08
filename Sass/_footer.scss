@@ -1,7 +1,6 @@
 footer{
     background-color: #f8f8f8;
     padding: {
-        bottom: 4.5rem;
         top:4.5rem;
     };
     h6{
@@ -91,5 +90,16 @@ footer{
                 transition: all .2s ease;
             }
          }
+     }
+     .footer__copyrights{
+         font-size: 12px;
+         span{
+             font : {
+                    weight: 700 !important;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+                color: $NavBarBg;
+            }
      }
 }
