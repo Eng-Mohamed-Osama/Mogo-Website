@@ -25,7 +25,7 @@ $(document).ready(function(){
   
   var switchNavbarBgOnscroll = function () {
   
-      if ( $(window).scrollTop() > $(".navbar").height()) {
+      if ( $(window).scrollTop() > 50) {
       
         $(".navbar").addClass("scrolling , shadow-lg");
   
