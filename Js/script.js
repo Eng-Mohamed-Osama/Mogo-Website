@@ -63,9 +63,9 @@ $(document).ready(function(){
   
   
   // LoaderScrean  
-  
+
   $(window).on('load', function() {
-    $('.overlayerloader').fadeOut('slow').removeClass('overlayerloader')
+    $('.overlayerloader').fadeOut('slow')
 
   });
   
