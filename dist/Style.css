@@ -160,8 +160,7 @@ body .owl-nav {
   z-index: 99999;
   background-color: #a1a1a1;
 }
-
-.sk-folding-cube {
+.overlayerloader .sk-folding-cube {
   margin: 20px auto;
   width: 80px;
   height: 80px;
@@ -169,7 +168,7 @@ body .owl-nav {
   -webkit-transform: rotateZ(45deg);
   transform: rotateZ(45deg);
 }
-.sk-folding-cube .sk-cube {
+.overlayerloader .sk-folding-cube .sk-cube {
   float: left;
   width: 50%;
   height: 50%;
@@ -178,7 +177,7 @@ body .owl-nav {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-.sk-folding-cube .sk-cube:before {
+.overlayerloader .sk-folding-cube .sk-cube:before {
   content: "";
   position: absolute;
   top: 0;
@@ -192,27 +191,27 @@ body .owl-nav {
   -ms-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-.sk-folding-cube .sk-cube2 {
+.overlayerloader .sk-folding-cube .sk-cube2 {
   -webkit-transform: scale(1.1) rotateZ(90deg);
   transform: scale(1.1) rotateZ(90deg);
 }
-.sk-folding-cube .sk-cube2:before {
+.overlayerloader .sk-folding-cube .sk-cube2:before {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
-.sk-folding-cube .sk-cube3 {
+.overlayerloader .sk-folding-cube .sk-cube3 {
   -webkit-transform: scale(1.1) rotateZ(180deg);
   transform: scale(1.1) rotateZ(180deg);
 }
-.sk-folding-cube .sk-cube3:before {
+.overlayerloader .sk-folding-cube .sk-cube3:before {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
-.sk-folding-cube .sk-cube4 {
+.overlayerloader .sk-folding-cube .sk-cube4 {
   -webkit-transform: scale(1.1) rotateZ(270deg);
   transform: scale(1.1) rotateZ(270deg);
 }
-.sk-folding-cube .sk-cube4:before {
+.overlayerloader .sk-folding-cube .sk-cube4:before {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
 }
