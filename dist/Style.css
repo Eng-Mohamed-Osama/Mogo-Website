@@ -445,7 +445,6 @@ header li .header__indecators {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 102vh;
 }
 @media (max-width: 576px) and (min-width: 150px) {
   .desing-app {
