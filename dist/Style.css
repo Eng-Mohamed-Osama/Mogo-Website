@@ -15,7 +15,6 @@ body {
   font-family: "Kaushan Script", cursive;
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
-  position: relative;
 }
 body .autoplay .media {
   transform: scale(0.95);
