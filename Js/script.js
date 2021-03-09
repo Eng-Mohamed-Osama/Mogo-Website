@@ -63,11 +63,8 @@ $(document).ready(function(){
   
   
   // LoaderScrean  
-
-  $(window).on('load', function() {
-    $('.overlayerloader').fadeOut('slow')
-
-  });
+  
+  
   
   // *************Scroll to Top Functions ************** //
   
