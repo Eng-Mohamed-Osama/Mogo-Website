@@ -19,7 +19,9 @@
 }
 .scrolling{
     background-color: $NavBarBg;
-    transition: all .2s ease-in-out;
+    padding-top: .3rem !important;
+    padding-bottom: .3rem !important;
+    transition: all .3s ease-in-out;
 }
 
 a.nav-link ,a.dropdown-item{

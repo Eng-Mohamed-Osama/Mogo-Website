@@ -12,6 +12,7 @@
    .hover-layer {
     box-shadow: none;
     transform: translate(0, 0);
+    transition: all .2s ease;
     i{
         color: #fff;
         background: transparent;
@@ -24,5 +25,9 @@
         line-height: 1.25rem;
         color: #ffffff;
     }
+}
+
+.card-wrapper:hover{
+    transform: translate(0,0);
 }
 }

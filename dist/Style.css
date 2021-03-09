@@ -141,6 +141,13 @@ body .hover-layer i:hover {
   background: #f08f8b;
   transition: all 0.2s ease-in-out;
 }
+body .card-wrapper {
+  transition: all 0.2s ease;
+}
+body .card-wrapper:hover {
+  transform: translate(-5px, -5px);
+  transition: all 0.3s ease;
+}
 body .owl-nav {
   display: none;
 }
@@ -164,7 +171,9 @@ body .owl-nav {
 
 .scrolling {
   background-color: rgba(241, 114, 114, 0.96);
-  transition: all 0.2s ease-in-out;
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
+  transition: all 0.3s ease-in-out;
 }
 
 a.nav-link, a.dropdown-item {
@@ -584,6 +593,7 @@ header li .header__indecators {
 .ourwork .hover-layer {
   box-shadow: none;
   transform: translate(0, 0);
+  transition: all 0.2s ease;
 }
 .ourwork .hover-layer i {
   color: #fff;
@@ -596,6 +606,9 @@ header li .header__indecators {
   font-size: 0.7rem;
   line-height: 1.25rem;
   color: #ffffff;
+}
+.ourwork .card-wrapper:hover {
+  transform: translate(0, 0);
 }
 
 .testominles {

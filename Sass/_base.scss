@@ -144,7 +144,13 @@ body{
             }
         }
     }
-
+    .card-wrapper{
+        transition: all .2s ease;
+    }
+    .card-wrapper:hover{
+        transform: translate(-5px , -5px);
+        transition: all .3s ease;
+    }
     .owl-nav{
         display: none;
     }
