@@ -64,7 +64,11 @@ $(document).ready(function(){
   
   // LoaderScrean  
   
-  
+  $(window).on("load",function(){
+      $(".overlayerloader").fadeOut(800,function(){
+        $(this).remove();
+      });
+  });
   
   // *************Scroll to Top Functions ************** //
   

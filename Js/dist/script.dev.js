@@ -39,7 +39,12 @@ $(document).ready(function () {
     toggleScrollToTopButton();
     switchNavbarBgOnscroll();
   }); // LoaderScrean  
-  // *************Scroll to Top Functions ************** //
+
+  $(window).on("load", function () {
+    $(".overlayerloader").fadeOut(800, function () {
+      $(this).remove();
+    });
+  }); // *************Scroll to Top Functions ************** //
   // ScrollTop Button
 
   $('.scrolltop').on('click', function () {
