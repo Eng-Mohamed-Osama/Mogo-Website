@@ -8,7 +8,7 @@ $(document).ready(function(){
   
         var offsetTop = $(elem).offset().top;  
   
-        if(  $(window).scrollTop() > (offsetTop-100) &&  $(window).scrollTop() < ( offsetTop)) {
+        if(  $(window).scrollTop() > (offsetTop-250) &&  $(window).scrollTop() < ( offsetTop)) {
   
             var elemId = $(elem).attr('id')
   
@@ -17,7 +17,9 @@ $(document).ready(function(){
             $(`nav ul li.${elemId}`).addClass('active');
   
         }
+        
     });
+    
   };
 
   // Nav Bar Background Color

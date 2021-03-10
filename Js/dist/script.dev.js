@@ -6,7 +6,7 @@ $(document).ready(function () {
     $('section').each(function (index, elem) {
       var offsetTop = $(elem).offset().top;
 
-      if ($(window).scrollTop() > offsetTop - 100 && $(window).scrollTop() < offsetTop) {
+      if ($(window).scrollTop() > offsetTop - 250 && $(window).scrollTop() < offsetTop) {
         var elemId = $(elem).attr('id');
         $("nav ul li.active").removeClass('active');
         $("nav ul li.".concat(elemId)).addClass('active');
