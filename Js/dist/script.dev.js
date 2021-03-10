@@ -41,7 +41,7 @@ $(document).ready(function () {
   }); // LoaderScrean  
 
   $(window).on("load", function () {
-    $(".overlayerloader").fadeOut(1600, function () {
+    $(".overlayerloader").fadeOut(1000, function () {
       $(this).remove();
     });
   }); // *************Scroll to Top Functions ************** //
