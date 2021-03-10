@@ -26,7 +26,7 @@
 
 a.nav-link ,a.dropdown-item{
     font: {
-        weight: 400 !important;
+        weight: 600 !important;
         size: .875rem !important;
         
     } 
@@ -41,9 +41,9 @@ i{
     
 }
 
-a.nav-link:hover  {
+a.nav-link:hover {
     color :$navHover !important;
-    border-bottom: 3px solid $navHover;
+    border-bottom: 1px solid $navHover;
     transition: all .2s ease-in-out;
 }
 .nav-item{
@@ -52,13 +52,11 @@ a.nav-link:hover  {
 }
 .navbar-brand:hover{
     color :$navHover !important;
-
     transition: all .2s ease-in-out;
 }
 
-.active a{
+.active a , .active i{
     color :$navHover !important;
-    border-bottom: 3px solid $navHover;
     transition: all .2s ease-in-out;
 }
 

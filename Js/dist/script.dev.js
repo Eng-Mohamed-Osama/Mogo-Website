@@ -1,19 +1,19 @@
 "use strict";
 
 $(document).ready(function () {
-  // Nav Bar Background Color
+  //adding class active to the current link representing section in view port
   var addClassOnScroll = function addClassOnScroll() {
     $('section').each(function (index, elem) {
       var offsetTop = $(elem).offset().top;
-      var outerHeight = $(this).outerHeight(true);
 
-      if ($(window).scrollTop() > offsetTop - 200 && $(window).scrollTop() < offsetTop + outerHeight) {
-        var elemId = $(elem).data('title');
+      if ($(window).scrollTop() > offsetTop - 100 && $(window).scrollTop() < offsetTop) {
+        var elemId = $(elem).attr('id');
         $("nav ul li.active").removeClass('active');
         $("nav ul li.".concat(elemId)).addClass('active');
       }
     });
-  };
+  }; // Nav Bar Background Color
+
 
   var switchNavbarBgOnscroll = function switchNavbarBgOnscroll() {
     if ($(window).scrollTop() > 0) {
@@ -49,16 +49,14 @@ $(document).ready(function () {
 
   $('.scrolltop').on('click', function () {
     $('.navbar-nav li').removeClass('active');
-    $("html,body").animate({
-      scrollTop: 0
-    }, 1500);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }); // Logo Scroll To the Top Function
 
   $(".navbar-brand").on("click", function () {
     $('.navbar-nav li').removeClass('active');
-    $("html,body").animate({
-      scrollTop: 0
-    }, 1200);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   });
   $('header li').on('click', function () {
     $(this).children('span').addClass('header__active').parent().siblings().children('span').removeClass('header__active');

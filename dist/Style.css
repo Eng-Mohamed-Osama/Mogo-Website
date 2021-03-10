@@ -8,13 +8,16 @@
   border: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Kaushan Script", cursive;
   font-family: "Montserrat", sans-serif;
-  scroll-behavior: smooth;
   position: relative;
 }
 body .autoplay .media {
@@ -275,7 +278,7 @@ body .owl-nav {
 }
 
 a.nav-link, a.dropdown-item {
-  font-weight: 400 !important;
+  font-weight: 600 !important;
   font-size: 0.875rem !important;
   font-family: "Montserrat";
   text-align: center;
@@ -289,7 +292,7 @@ i {
 
 a.nav-link:hover {
   color: #fce38a !important;
-  border-bottom: 3px solid #fce38a;
+  border-bottom: 1px solid #fce38a;
   transition: all 0.2s ease-in-out;
 }
 
@@ -303,9 +306,8 @@ a.nav-link:hover {
   transition: all 0.2s ease-in-out;
 }
 
-.active a {
+.active a, .active i {
   color: #fce38a !important;
-  border-bottom: 3px solid #fce38a;
   transition: all 0.2s ease-in-out;
 }
 

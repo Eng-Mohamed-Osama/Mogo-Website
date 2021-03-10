@@ -27,7 +27,7 @@
     <!--     ############################################# navBar ######################################################################  -->
     <nav class="navbar navbar-expand-lg py-2 bg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#header">
                 MoGo
             </a>
             <div class="d-flex d-md-none">
@@ -36,31 +36,31 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fas fa-grip-lines"></i></span>
                 </button>
-                       <a class="nav-link font-weight-bold ml-lg-3"  href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a class="nav-link font-weight-bold ml-lg-3" href="#"><i class="fas fa-search"></i></a>
+                    <a class="nav-link font-weight-bold ml-lg-3"  href="#Shopping"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="nav-link font-weight-bold ml-lg-3" href="#team"><i class="fas fa-search"></i></a>
             </div>
                 <div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ABOUTscroll" data-scroll="ABOUTscroll">
-                            <a class="nav-link font-weight-bold ml-lg-3" href="#">ABOUT</a>
+                        <li class="nav-item ABOUTscroll" >
+                            <a class="nav-link font-weight-bold ml-lg-3" href="#ABOUTscroll">ABOUT</a>
                         </li>
-                        <li class="nav-item SERVICEscroll" data-scroll="SERVICEscroll">
-                            <a class="nav-link font-weight-bold ml-lg-3" href="#">SERVICE</a>
+                        <li class="nav-item SERVICEscroll" >
+                            <a class="nav-link font-weight-bold ml-lg-3" href="#SERVICEscroll">SERVICE</a>
                         </li>
-                        <li class="nav-item WORKscroll" data-scroll="WORKscroll">
-                            <a class="nav-link font-weight-bold ml-lg-3" href="#">WORK</a>
+                        <li class="nav-item WORKscroll" >
+                            <a class="nav-link font-weight-bold ml-lg-3" href="#WORKscroll">WORK</a>
                         </li>
-                        <li class="nav-item BLOGscroll" data-scroll="BLOGscroll">
-                            <a class="nav-link font-weight-bold ml-lg-3" href="#">BLOG</a>
+                        <li class="nav-item BLOGscroll" >
+                            <a class="nav-link font-weight-bold ml-lg-3" href="#BLOGscroll">BLOG</a>
                         </li>
-                        <li class="nav-item CONTACTscroll" data-scroll="CONTACTscroll">
-                            <a class="nav-link font-weight-bold ml-lg-3" href="#">CONTACT</a>
-                        </li>
-                        <li class="nav-item d-none d-lg-block">
-                            <a class="nav-link font-weight-bold ml-lg-3"  href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <li class="nav-item CONTACTscroll" >
+                            <a class="nav-link font-weight-bold ml-lg-3" href="#CONTACTscroll">CONTACT</a>
                         </li>
                         <li class="nav-item d-none d-lg-block">
-                            <a class="nav-link font-weight-bold ml-lg-3" href="#"><i class="fas fa-search"></i></a>
+                            <a class="nav-link font-weight-bold ml-lg-3"  href="#Shopping"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link font-weight-bold ml-lg-3" href="#team"><i class="fas fa-search"></i></a>
                         </li>
                     </ul>  
                 </div>      
@@ -70,7 +70,7 @@
 
     <!--     ############################################# Header ######################################################################  -->
 
-    <header class="position-relative">
+    <header class="position-relative" id='header'>
         <div
             class="position-absolute flex-column h-100 w-100 hover-layer d-flex justify-content-center align-items-center">
         </div>
@@ -141,7 +141,7 @@
 
         <!--     ############################################# About Us ######################################################################  -->
 
-        <section class="aboutus ABOUTscroll" data-title='ABOUTscroll'>
+        <section class="aboutus" id='ABOUTscroll'>
             <div class="container text-center">
                 <h2>what we do</h2>
                 <h3>STORY ABOUT US</h3>
@@ -217,7 +217,7 @@
 
         <!--     ############################################# statics ######################################################################  -->
 
-        <section class="statics">
+        <section class="statics" id='SERVICEscroll'>
             <div class="container text-center">
                 <h2>We work with </h2>
                 <h3>AMAZING SERVICES</h3>
@@ -304,7 +304,7 @@
 
 <!--     ############################################# desing App ######################################################################  -->
 
-        <section class="desing-app position-relative">
+        <section class="desing-app position-relative" id='Shopping'>
             <div class="overlayer h-100 w-100 position-absolute">
             </div>
             <div class="container text-center position-relative ">
@@ -321,7 +321,7 @@
 
         <!--     ############################################# services ######################################################################  -->
 
-        <section class="services SERVICEscroll" data-title='SERVICEscroll'>
+        <section class="services" >
             <div class="container text-center">
                 <h2>Services</h2>
                 <h3>WHAT WE DO</h3>
@@ -502,7 +502,7 @@
 
 <!--     ############################################# team ######################################################################  -->
 
-        <section class="team">
+        <section class="team" id='team'>
             <div class="container text-center">
                 <h2>Who are we</h2>
                 <h3>MEET OUR TEAM</h3>
@@ -599,7 +599,7 @@
 
 <!--     ############################################# our work galary ######################################################################  -->
 
-        <section class="ourwork WORKscroll" data-title='WORKscroll'>
+        <section class="ourwork" id='WORKscroll'>
             <div class=" text-center  w-100">
                 <h2>What we do</h2>
                 <h3>SOME OF OUR WORK</h3>
@@ -812,7 +812,7 @@
 
         <!--     ############################################# testomiles ######################################################################  -->
 
-        <section class="testominles position-relative">
+        <section class="testominles position-relative" >
             <div class="overlayer h-100 w-100 position-absolute">
 
             </div>
@@ -872,7 +872,7 @@
 
         <!--     ############################################# Blogs ######################################################################  -->
 
-        <section class="blogs BLOGscroll" data-title='BLOGscroll'>
+        <section class="blogs" id='BLOGscroll'>
             <div class="container text-center">
                 <h2>Our stories</h2>
                 <h3>LATEST BLOG</h3>
@@ -928,7 +928,7 @@
 
         <!--     ############################################# Map ######################################################################  -->
 
-        <section class="map position-relative CONTACTscroll " data-title='CONTACTscroll'>
+        <section class="map position-relative " >
             <div class="overlayer h-100 w-100 position-absolute">
 
             </div>
@@ -941,7 +941,7 @@
 
     <!--     ############################################# End of Main ######################################################################  -->
 
-    <footer >
+    <footer id='CONTACTscroll'>
         <div class="container">
             <div class="row border border-left-0 border-top-0 border-right-0">
                 <div class="col-lg-5 col-md-6 col-12 mb-5 mb-lg-0">

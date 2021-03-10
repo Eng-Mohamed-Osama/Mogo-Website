@@ -2,13 +2,16 @@
     outline: none;
     border: none;
 }
+html{
+    scroll-behavior: smooth;
+
+}
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
     position: relative;
     .autoplay .media{
         transform: scale(.95);
