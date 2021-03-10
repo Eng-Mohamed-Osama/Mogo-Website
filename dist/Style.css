@@ -295,6 +295,10 @@ a.nav-link:hover {
   border-bottom: 1px solid #fce38a;
   transition: all 0.2s ease-in-out;
 }
+a.nav-link:hover i {
+  color: #fce38a !important;
+  transition: all 0.2s ease-in-out;
+}
 
 .nav-item {
   transition: all 0.2s ease-in-out;

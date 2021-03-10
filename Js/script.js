@@ -4,7 +4,7 @@ $(document).ready(function(){
   
   var addClassOnScroll = function () {
   
-    $('section').each(function (index, elem) {
+    $('section').each(function (i, elem) {
   
         var offsetTop = $(elem).offset().top;  
   

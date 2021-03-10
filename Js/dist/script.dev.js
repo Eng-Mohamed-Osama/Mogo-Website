@@ -3,7 +3,7 @@
 $(document).ready(function () {
   //adding class active to the current link representing section in view port
   var addClassOnScroll = function addClassOnScroll() {
-    $('section').each(function (index, elem) {
+    $('section').each(function (i, elem) {
       var offsetTop = $(elem).offset().top;
 
       if ($(window).scrollTop() > offsetTop - 250 && $(window).scrollTop() < offsetTop) {

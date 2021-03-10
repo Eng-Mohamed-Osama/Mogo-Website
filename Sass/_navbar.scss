@@ -45,6 +45,10 @@ a.nav-link:hover {
     color :$navHover !important;
     border-bottom: 1px solid $navHover;
     transition: all .2s ease-in-out;
+    i{
+        color :$navHover !important;
+        transition: all .2s ease-in-out;
+    }
 }
 .nav-item{
     transition: all .2s ease-in-out;
